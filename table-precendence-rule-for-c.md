@@ -1,6 +1,6 @@
 Table Precendece Rule
 
- The Precedence Rule for Understanding C Declarations                                       |  |  |
+| The Precedence Rule for Understanding C Declarations                                       |  |  |
 |:-----------------------------------------------------------------------------------------:|:-|:-|
 | A | Declarations are read by starting with the name and then reading in precedence order. |
 | B | The precedence, from high to low, is: |
