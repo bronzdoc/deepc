@@ -1,16 +1,15 @@
 Table Precendece Rule
 
-| The Precedence Rule for Understanding C Declarations |
-|:----------------------------------------------------:|
+ The Precedence Rule for Understanding C Declarations                                       |  |  |
+|:-----------------------------------------------------------------------------------------:|:-|:-|
 | A | Declarations are read by starting with the name and then reading in precedence order. |
 | B | The precedence, from high to low, is: |
-| - | B.1 | parentheses grouping together parts of a declaration |
-| - | B.2 | the postfix operators: |
-| - |  -  | parentheses () indicating a function, and |
-| - |  -  | square brackets [] indicating an array.   |
-| - | B.3 | the prefix operator: the asterisk denoting "pointer to". |
+|   | B.1 parentheses grouping together parts of a declaration |
+|   | B.2  the postfix operators: |
+|   |                             | parentheses () indicating a function, and |
+|   |                             | square brackets [] indicating an array.   |
+|   | B.3  the prefix operator: the asterisk denoting "pointer to". |
 | C | If a const and/or volatile keyword is next to a type specifier (e.g. int, long , etc.) it applies to the type specifier. Otherwise the const and/or volatile keyword applies to the pointer asterisk on its immediate left.|
-
 
 char* const *(next)();
 
